@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
         private MySqlConnection con;
         public Connection()
         {
-            connString = "Server = dtiro-system; Uid = itguy; Pwd = itguy; Database = wolfire_ebis_marinduque_2016";
+            connString = "Server = ; Uid = ; Pwd = ; Database = ";
             con = new MySqlConnection(connString);
         }
 
